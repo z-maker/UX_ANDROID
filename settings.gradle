@@ -1,0 +1,2 @@
+include ':app', ':uiux'
+rootProject.name='UxModule'

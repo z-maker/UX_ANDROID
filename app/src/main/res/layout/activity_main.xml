@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.dynamic.uiux.IconEditText
+        app:tex_type="text"
+        android:id="@+id/username"
+        app:icon="@drawable/ic_perm_identity_black_24dp"
+        app:placeholder="User name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.dynamic.uiux.IconEditText
+        app:tex_type="phone"
+        android:id="@+id/phone"
+        app:icon="@drawable/ic_phone_iphone_black_24dp"
+        app:placeholder="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.dynamic.uiux.IconEditText
+        app:tex_type="email"
+        android:id="@+id/email"
+        app:icon="@drawable/ic_mail_outline_black_24dp"
+        app:placeholder="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.dynamic.uiux.IconEditText
+        app:tex_type="password"
+        android:id="@+id/password"
+        app:icon="@drawable/ic_passwd_outline_black_24dp"
+        app:placeholder="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.dynamic.uiux.IconEditText
+        app:tex_type="password"
+        android:id="@+id/passwordRepeat"
+        app:icon="@drawable/ic_passwd_outline_black_24dp"
+        app:placeholder="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.dynamic.uiux.RoundedButton
+        android:layout_marginTop="4dp"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="center"
+        android:text="@string/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

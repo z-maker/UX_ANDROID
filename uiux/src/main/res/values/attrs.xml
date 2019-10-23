@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IconEditText">
+        <attr name="placeholder" format="string"/>
+        <attr name="text" format="string"/>
+        <attr name="icon" format="reference"/>
+        <attr name="tex_type" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedButton">
+
+    </declare-styleable>
+</resources>
