@@ -108,5 +108,27 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:weightSum="12"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.dynamic.uiux.Counter
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.dynamic.uiux.Counter
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.dynamic.uiux.Counter
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
