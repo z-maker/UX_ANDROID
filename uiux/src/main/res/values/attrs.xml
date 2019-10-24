@@ -10,4 +10,9 @@
     <declare-styleable name="RoundedButton">
 
     </declare-styleable>
+
+    <declare-styleable name="Counter">
+        <attr name="allowNegatives" format="boolean"/>
+        <attr name="min" format="string"/>
+    </declare-styleable>
 </resources>

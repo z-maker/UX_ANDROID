@@ -116,14 +116,17 @@
         android:layout_height="wrap_content">
 
         <com.dynamic.uiux.Counter
+            app:min="23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <com.dynamic.uiux.Counter
+            app:min="-3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <com.dynamic.uiux.Counter
+            app:allowNegatives="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
