@@ -16,6 +16,7 @@
         android:layout_height="30dp"/>
 
     <TextView
+        android:textColor="?attr/colorPrimaryDark"
         android:autoSizeTextType="uniform"
         android:textSize="24sp"
         android:id="@+id/txtCount"

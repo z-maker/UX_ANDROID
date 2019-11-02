@@ -23,6 +23,7 @@
     tools:context=".MainActivity">
 
     <com.dynamic.uiux.IconEditText
+        app:focused_color="@color/colorAccent"
         app:tex_type="text"
         android:id="@+id/username"
         app:icon="@drawable/ic_perm_identity_black_24dp"
@@ -116,20 +117,48 @@
         android:layout_height="wrap_content">
 
         <com.dynamic.uiux.Counter
-            app:min="23"
+            app:min="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <com.dynamic.uiux.Counter
-            app:min="-3"
+            app:min="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <com.dynamic.uiux.Counter
+            app:min="0"
             app:allowNegatives="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.dynamic.uiux.SwitchButton
+            app:sb_show_indicator="false"
+            app:sb_checked_color="@color/colorAccent"
+            app:sb_checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.dynamic.uiux.SwitchButton
+            app:sb_show_indicator="false"
+            app:sb_checked_color="@color/colorAccent"
+            app:sb_checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.dynamic.uiux.SwitchButton
+            app:sb_show_indicator="false"
+            app:sb_checked_color="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

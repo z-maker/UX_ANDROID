@@ -2,13 +2,14 @@ package com.dynamic.uiux;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.ColorInt;
 import android.support.annotation.Nullable;
 import android.support.v7.content.res.AppCompatResources;
 import android.text.Editable;
 import android.text.InputType;
 import android.util.AttributeSet;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -18,6 +19,7 @@ public class IconEditText extends LinearLayout {
 
     private EditText textInputLayout;
     private ImageView imageView;
+    private Color focusedColor;
 
     public IconEditText(Context context) {
         super(context);
@@ -47,6 +49,8 @@ public class IconEditText extends LinearLayout {
         String text_type  = array.getString(R.styleable.IconEditText_tex_type);
 
         Drawable drawable = AppCompatResources.getDrawable(c,icon);
+
+        @ColorInt int color  = array.getColor(R.styleable.IconEditText_focused_color,Color.BLACK);
 
         array.recycle();
 
@@ -87,6 +91,7 @@ public class IconEditText extends LinearLayout {
     public void setText(String text){
         textInputLayout.setText(text);
     }
+
 
 
 //    public IconEditText(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
