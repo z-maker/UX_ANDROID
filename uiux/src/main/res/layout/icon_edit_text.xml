@@ -24,4 +24,13 @@
         android:hint="@string/example"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_marginStart="0dp"
+        android:id="@+id/imageEye"
+        android:src="@drawable/ic_visibility_off"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/icon_content_desc_0" />
 </LinearLayout>
