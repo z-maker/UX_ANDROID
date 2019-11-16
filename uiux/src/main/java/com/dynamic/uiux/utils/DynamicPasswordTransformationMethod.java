@@ -3,7 +3,7 @@ package com.dynamic.uiux.utils;
 import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 
-public class DynamicPasswordTransormationMethod extends PasswordTransformationMethod {
+public class DynamicPasswordTransformationMethod extends PasswordTransformationMethod {
 
     @Override
     public CharSequence getTransformation(CharSequence source, View view) {
@@ -13,7 +13,7 @@ public class DynamicPasswordTransormationMethod extends PasswordTransformationMe
     private class PasswordCharSequence implements CharSequence {
         private CharSequence mSource;
 
-        public PasswordCharSequence(CharSequence source) {
+        PasswordCharSequence(CharSequence source) {
             mSource = source; // Store char sequence
         }
 

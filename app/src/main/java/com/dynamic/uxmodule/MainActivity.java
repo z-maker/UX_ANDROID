@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         btn2 = findViewById(R.id.facebookButton);
 
         if (getSupportActionBar() != null){
@@ -54,10 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showFancy(){
-        new FancyGifDialog.Builder(this)
-                .setGifResource(R.drawable.preloader)   //Pass your Gif here
-                .isCancellable(false)
-                .build();
+
     }
 
     @Override

@@ -16,6 +16,7 @@
         android:layout_height="30dp"
         android:contentDescription="@string/icon_content_desc_0" />
     <EditText
+        android:layout_marginRight="16dp"
         android:textColor="?attr/colorAccent"
         android:layout_gravity="center_vertical"
         android:background="@android:color/transparent"

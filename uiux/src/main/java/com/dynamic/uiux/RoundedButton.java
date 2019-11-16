@@ -21,9 +21,10 @@ public class RoundedButton extends android.support.v7.widget.AppCompatButton {
     }
 
     private void init(Context ctx, AttributeSet attr){
-
         this.setBackground(AppCompatResources.getDrawable(ctx,R.drawable.corner_radius_bg));
     }
+
+
 
 
 

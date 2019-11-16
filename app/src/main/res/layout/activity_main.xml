@@ -27,21 +27,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.dynamic.uiux.IconEditText
-        app:tex_type="phone"
-        android:id="@+id/phone"
-        app:icon="@drawable/ic_phone_iphone_black_24dp"
-        app:placeholder="phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+   <LinearLayout
+       android:weightSum="2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
 
-    <com.dynamic.uiux.IconEditText
-        app:tex_type="email"
-        android:id="@+id/email"
-        app:icon="@drawable/ic_mail_outline_black_24dp"
-        app:placeholder="email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+       <com.dynamic.uiux.IconEditText
+           android:layout_weight="1"
+           app:tex_type="phone"
+           android:id="@+id/phone"
+           app:icon="@drawable/ic_phone_iphone_black_24dp"
+           app:placeholder="phone"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="4dp"/>
+
+       <com.dynamic.uiux.IconEditText
+           android:layout_weight="1"
+           app:tex_type="email"
+           android:id="@+id/email"
+           app:icon="@drawable/ic_mail_outline_black_24dp"
+           app:placeholder="email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
 
     <com.dynamic.uiux.IconEditText
         app:tex_type="password"

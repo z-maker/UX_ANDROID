@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.dynamic.uiux.utils.DynamicPasswordTransormationMethod;
+import com.dynamic.uiux.utils.DynamicPasswordTransformationMethod;
 
 
 public class IconEditText extends LinearLayout {
@@ -65,7 +65,7 @@ public class IconEditText extends LinearLayout {
         switch (text_type){
             case "password":
                 textInputLayout.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-                textInputLayout.setTransformationMethod(new DynamicPasswordTransormationMethod());
+                textInputLayout.setTransformationMethod(new DynamicPasswordTransformationMethod());
                 break;
             case "email":
                 textInputLayout.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
