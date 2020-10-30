@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (getSupportActionBar() != null){
             actionBar = getSupportActionBar();
-            actionBar.setTitle("Dynamic Solutions Ux");
+            actionBar.setTitle("Ux elements");
             actionBar.setLogo(R.mipmap.ic_launcher);
         }
 

@@ -11,6 +11,7 @@ public class DynamicPasswordTransformationMethod extends PasswordTransformationM
     }
 
     private class PasswordCharSequence implements CharSequence {
+
         private CharSequence mSource;
 
         PasswordCharSequence(CharSequence source) {

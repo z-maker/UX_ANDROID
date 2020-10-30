@@ -16,6 +16,7 @@
         <attr name="allowNegatives" format="boolean"/>
         <attr name="min" format="string"/>
     </declare-styleable>
+
     <declare-styleable name="SwitchButton">
         <attr name="sb_shadow_radius" format="reference|dimension"/>
         <attr name="sb_shadow_offset" format="reference|dimension"/>
